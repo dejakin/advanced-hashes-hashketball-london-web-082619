@@ -268,7 +268,6 @@ def player_with_longest_name
 end
 
 def long_name_steals_a_ton
-  player_with steal = nil
   
   game_hash.each do |place, team|
     team.each do |attributes, data|
