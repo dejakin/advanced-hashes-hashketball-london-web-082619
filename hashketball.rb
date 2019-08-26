@@ -267,7 +267,7 @@ def player_with_longest_name
   current_player_name
 end
 
-def long_name_steals_a_ton
+def 
   player_with steal = nil
   steal_num = 0
   
