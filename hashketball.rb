@@ -269,7 +269,6 @@ end
 
 def long_name_steals_a_ton?
   player_with_steal = nil
-  steal_num = 0
   
   game_hash.each do |place, team|
     team.each do |attributes, data|
