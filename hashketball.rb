@@ -249,7 +249,6 @@ def winning_team
 end
 
 def player_with_longest_name
-  current_longest = 0
   current_player_name = nil
   
   game_hash.each do |place, team|
