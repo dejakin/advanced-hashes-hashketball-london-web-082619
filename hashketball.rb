@@ -275,6 +275,7 @@ def long_name_steals_a_ton
       if attributes == :players
         data.each do |player|
           if player[:steals] > steal_num
+            steal_num = player[:steals]
             player_with_steal = player[:player_name]
           end
         end
